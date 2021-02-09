@@ -43,10 +43,40 @@ JavaScript Object Notation
 ```
 
 
-
-
 ## What's web crawler？
 ### 用途
+
 ### 步驟
-### 相關技術
+1. 目標 URL 網址
+   ```python
+    import urllib.request as request
+    with request.urlopen(網址) as response:
+       data = response.read()
+    print(data)
+   ```
+   1. 適合的資料來源：[台北市政府公開資料](http://data/taipei/)
+2. 送出 request 取得網頁
+3. 分析網頁
+   1. 確認資料格式：JSON、CSV...等
+    ```python
+    import urllib .request as request
+    src="https://www.cjcu.edu.tw/"
+    with request.urlopen(src)as response:
+        data=response.read() #取得長榮大學網站的原始碼(HTML、CSS、JASON)
+        print(data)
+    with request.urlopen(src)as response:
+        data=response.read().decode("utf-8") #utf-8解碼
+    print(data)
+    ```
+4. 取出所需資料
+
 ### 相關函式庫
+- 靜態網頁
+  1. Beautiful Soup
+  2. lxml
+- 動態網頁
+  1. Selenium
+  2. WebDriver
+- 爬取整個網站
+  1. Scrapy 網路爬蟲框架幫助建立 python 爬蟲程式
+
