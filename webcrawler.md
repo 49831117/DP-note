@@ -85,4 +85,8 @@ JavaScript Object Notation
 
 ### 追蹤連結
 - HTML 超連結
-- 
+
+### 常見種類
+1. HTML
+2. JSON
+3. AJAX
