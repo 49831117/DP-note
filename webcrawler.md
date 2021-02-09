@@ -80,3 +80,9 @@ JavaScript Object Notation
 - 爬取整個網站
   1. Scrapy 網路爬蟲框架幫助建立 python 爬蟲程式
 
+### Cookie
+- 連線時放在 request header 中送出
+
+### 追蹤連結
+- HTML 超連結
+- 
