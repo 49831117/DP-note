@@ -87,6 +87,7 @@ JavaScript Object Notation
 - HTML 超連結
 
 ### 常見種類
-1. HTML
-2. JSON
-3. AJAX
+1. HTML *eg. PTT*
+2. JSON *eg. 臺北市資料大平台*
+3. AJAX *eg. KKday*
+
